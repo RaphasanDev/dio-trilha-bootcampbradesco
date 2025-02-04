@@ -2,7 +2,8 @@ package pilares;
 
 
 
-public class Carro {
+public class Carro extends Veiculo{
+    
     public void ligar(){
         confereCambio();
         confereceCombustivel();
