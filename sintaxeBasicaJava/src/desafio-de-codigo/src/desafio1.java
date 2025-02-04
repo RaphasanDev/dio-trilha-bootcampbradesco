@@ -16,6 +16,7 @@ public class desafio1 {
         // TODO: Na linha abaixo, realize o cálculo do saldo final:
         double saldoFinal = saldoInicial + transacao1 + transacao2 + transacao3;
         // Saldo final
+        System.out.println("Saldo final: ");
         System.out.printf("%.2f\n", saldoFinal);
 
         scanner.close();
