@@ -4,6 +4,7 @@ package pilares;
 
 public class Carro extends Veiculo{
     
+    @Override
     public void ligar(){
         confereCambio();
         confereceCombustivel();
@@ -16,6 +17,7 @@ public class Carro extends Veiculo{
         System.out.println("CONFERINDO CAMBIO");
     }
 
+    @Override
     public void desligar(){
         System.out.println("Carro desligado");
     }
