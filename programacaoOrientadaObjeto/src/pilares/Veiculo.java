@@ -9,4 +9,5 @@ public abstract class Veiculo {
         this.chassi = chassi;
     }
     public abstract void ligar();
+    public abstract void desligar();
 }

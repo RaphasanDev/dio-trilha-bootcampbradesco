@@ -15,4 +15,8 @@ public class Carro extends Veiculo{
     private void confereCambio(){
         System.out.println("CONFERINDO CAMBIO");
     }
+
+    public void desligar(){
+        System.out.println("Carro desligado");
+    }
 }
