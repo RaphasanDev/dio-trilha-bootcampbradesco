@@ -1,6 +1,6 @@
 package teoriainterfaces.src;
 
-public class SmartPhone implements VideoPlayer, MusicPlayer{
+public class SmartPhone implements VideoPlayer{
 
     @Override
     public void playVideo() {
