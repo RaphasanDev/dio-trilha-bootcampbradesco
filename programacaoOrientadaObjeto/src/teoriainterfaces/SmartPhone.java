@@ -1,4 +1,4 @@
-package teoriainterfaces.src;
+package teoriainterfaces;
 
 public class SmartPhone implements VideoPlayer{
 

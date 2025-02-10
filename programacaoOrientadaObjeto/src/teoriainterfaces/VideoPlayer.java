@@ -1,4 +1,4 @@
-package teoriainterfaces.src;
+package teoriainterfaces;
 
 public interface VideoPlayer extends MusicPlayer {
 
