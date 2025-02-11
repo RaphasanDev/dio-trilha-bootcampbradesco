@@ -13,6 +13,7 @@
 - Embora a interface Map não seja filha direta da interface Collection, ela também é considerada uma coleção devido à sua função.
 
 ![image](https://github.com/user-attachments/assets/d6405d07-a726-4499-a0f1-01fa467110c2)
+[Method Sumary Collection Interface]([url](https://github.com/cami-la/collections-java-api-2023/tree/master?tab=readme-ov-file#:~:text=Method%20Sumary%20Collection%20Interface))
 
 
 
