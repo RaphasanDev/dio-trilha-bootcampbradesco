@@ -1,4 +1,4 @@
-package programacaoOrientadaObjeto.pilares;
+package programacaoOrientadaObjeto.herancapolimorfismo;
 
 
 public class Moto extends Veiculo{
