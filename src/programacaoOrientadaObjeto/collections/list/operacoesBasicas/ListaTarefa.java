@@ -35,7 +35,12 @@ public class ListaTarefa {
 
 	}
 	public void obterDescricoesTarefas(){
-		System.out.println(tarefaList);
+		if(!tarefaList.isEmpty()) {
+			System.out.println(tarefaList);
+		}else {
+			System.out.println("A lista está vazia");
+		}
+		
 	}
 
 	
@@ -43,13 +48,15 @@ public class ListaTarefa {
 		ListaTarefa listaTarefa = new ListaTarefa(); 
 		System.out.println("O total de tarefas agora é: " + listaTarefa.obterNumeroTotalTarefas());
 		listaTarefa.adicionarTarefa("Comprar comida");
-		listaTarefa.adicionarTarefa("Fazer comida");
-		listaTarefa.adicionarTarefa("Comer comida");
-		listaTarefa.adicionarTarefa("Guardar comida");
-		listaTarefa.adicionarTarefa("Comprar comida");
+		//listaTarefa.adicionarTarefa("Fazer comida");
+		//listaTarefa.adicionarTarefa("Comer comida");
+		//listaTarefa.adicionarTarefa("Guardar comida");
+		//listaTarefa.adicionarTarefa("Comprar comida");
 		
 		
 		System.out.println("O total de tarefas agora é: " + listaTarefa.obterNumeroTotalTarefas());
+		
+		listaTarefa.obterDescricoesTarefas();
 		listaTarefa.removeTarefa("Comprar comida");
 		
 		System.out.println("O total de tarefas agora é: " + listaTarefa.obterNumeroTotalTarefas());
