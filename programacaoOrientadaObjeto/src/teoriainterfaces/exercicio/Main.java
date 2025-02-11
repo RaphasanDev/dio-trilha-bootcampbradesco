@@ -1,4 +1,4 @@
-package teoriainterfaces.exercicio;
+
 import java.util.Scanner;
 
 public class Main {
