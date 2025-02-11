@@ -1,6 +1,6 @@
-package desafios.modelandoIphoneULM;
+package programacaoOrientadaObjeto.desafios.modelandoIphoneULM;
 
-import desafios.modelandoIphoneULM.classes.Interfaces;
+import programacaoOrientadaObjeto.desafios.modelandoIphoneULM.classes.Interfaces;
 
 
 /**

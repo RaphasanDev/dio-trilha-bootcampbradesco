@@ -1,8 +1,8 @@
-package desafios.modelandoIphoneULM.classes;
+package programacaoOrientadaObjeto.desafios.modelandoIphoneULM.classes;
 
-import desafios.modelandoIphoneULM.interfaces.AparelhoTelefonico;
-import desafios.modelandoIphoneULM.interfaces.NavegadorInternet;
-import desafios.modelandoIphoneULM.interfaces.ReprodutorMusical;
+import programacaoOrientadaObjeto.desafios.modelandoIphoneULMinterfaces.AparelhoTelefonico;
+import programacaoOrientadaObjeto.desafios.modelandoIphoneULMinterfaces.NavegadorInternet;
+import programacaoOrientadaObjeto.desafios.modelandoIphoneULMinterfaces.ReprodutorMusical;
 
 public class Interfaces implements AparelhoTelefonico, NavegadorInternet, ReprodutorMusical {
 

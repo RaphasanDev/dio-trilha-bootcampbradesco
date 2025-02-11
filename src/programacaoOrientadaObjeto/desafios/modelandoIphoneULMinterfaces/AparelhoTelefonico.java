@@ -1,4 +1,4 @@
-package desafios.modelandoIphoneULM.interfaces;
+package programacaoOrientadaObjeto.desafios.modelandoIphoneULMinterfaces;
 
 public interface AparelhoTelefonico {
     void ligar(String numero);

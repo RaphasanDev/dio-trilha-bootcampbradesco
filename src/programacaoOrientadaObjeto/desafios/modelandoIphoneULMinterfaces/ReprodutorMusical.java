@@ -1,4 +1,4 @@
-package desafios.modelandoIphoneULM.interfaces;
+package programacaoOrientadaObjeto.desafios.modelandoIphoneULMinterfaces;
 
 public interface ReprodutorMusical {
     void tocar();
