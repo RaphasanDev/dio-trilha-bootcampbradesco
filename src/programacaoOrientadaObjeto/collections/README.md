@@ -12,10 +12,8 @@
 - Todas as interfaces e classes são encontradas dentro do pacote (package) java.util.
 - Embora a interface Map não seja filha direta da interface Collection, ela também é considerada uma coleção devido à sua função.
 
-<p align="center">
-<img src="./assets/image/collection-framework-methods.png" alt="List interface hierarchy Java"><br>
-<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html">Method Sumary Collection Interface</a>
-</p>
+![image](https://github.com/user-attachments/assets/d6405d07-a726-4499-a0f1-01fa467110c2)
+
 
 
 ---
