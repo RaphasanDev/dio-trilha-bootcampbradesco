@@ -13,6 +13,36 @@
 - Embora a interface Map não seja filha direta da interface Collection, ela também é considerada uma coleção devido à sua função.
 
 ![image](https://github.com/user-attachments/assets/d6405d07-a726-4499-a0f1-01fa467110c2)
+
+<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html">Method Sumary Collection Interface</a>
+</p>
+
+---
+
+### Referências:
+
+[1] "Java Collections - Universidade Java." Universidade Java. Disponível em: http://www.universidadejava.com.br/java/java-collection/.
+
+[2] "Java™ Platform, Standard Edition 17 API Specification - Interface Collection." Oracle. Disponível em: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html.
+
+[3] "Java Comparator and Comparable - Baeldung." Baeldung. Disponível em: https://www.baeldung.com/java-comparator-comparable.
+
+[4] "Java™ Platform, Standard Edition 17 API Specification - Class Collections." Oracle. Disponível em: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collections.html.
+
+---
+Se você preferir usar o protocolo SSH para comunicação com o repositório, siga as etapas abaixo:
+
+1. Abra o terminal ou prompt de comando.
+2. Navegue até o diretório do projeto.
+3. Execute o seguinte comando para mudar a URL remota para SSH:
+
+   ```shell
+   git remote set-url origin git@github.com:cami-la/collections-java-api-2023.git
+
+### Dúvidas e Suporte
+
+Caso você tenha alguma dúvida, problema ou sugestão, fique à vontade para abrir uma issue no repositório. Espero conseguir te ajudar! (:
+
 [Method Sumary Collection Interface]([url](https://github.com/cami-la/collections-java-api-2023/tree/master?tab=readme-ov-file#:~:text=Method%20Sumary%20Collection%20Interface))
 
 
