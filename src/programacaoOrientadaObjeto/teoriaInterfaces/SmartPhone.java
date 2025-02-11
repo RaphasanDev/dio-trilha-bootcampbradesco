@@ -4,7 +4,7 @@ public class SmartPhone implements VideoPlayer{
 
     @Override
     public void playVideo() {
-        System.out.println("O smartphone está tocando video");
+        System.out.println("O smartphone está tocando o video");
     }
 
     @Override
