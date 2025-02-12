@@ -12,6 +12,7 @@ public class Item {
 		this.quantidade = quantidade;
 	}
 
+		
 		public String getNome() {
 			return nome;
 		}
@@ -22,6 +23,12 @@ public class Item {
 
 		public int getQuantidade() {
 			return quantidade;
+		}
+
+
+		@Override
+		public String toString() {
+			return "Item [nome= " + nome + ", preco= R$ " + preco + ", quantidade= " + quantidade + "]";
 		}
 	
 	
