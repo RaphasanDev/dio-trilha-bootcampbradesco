@@ -6,6 +6,7 @@ import java.util.Set;
 public class ConjuntoConvidados {
 
 	private Set<Convidado> convidadoSet;
+	
 	public ConjuntoConvidados() {
 		this.convidadoSet = new HashSet<>();
 	}
@@ -16,10 +17,10 @@ public class ConjuntoConvidados {
 	public void removerConvidadoPorCodigoConvite(int codigoConvite) {
 		Convidado convidadoParaRemover = null;
 		for(Convidado c : convidadoSet) {
-			if(c.getCodigoConvite()== codigoConvite);
+			if(c.getCodigoConvite() == codigoConvite);
 			convidadoParaRemover = c;
 			break;
-		}
+		}convidadoSet.remove(convidadoParaRemover);
 	}
 	
 	public int contarConvidados() {
@@ -29,4 +30,25 @@ public class ConjuntoConvidados {
 	public void exibirConvidados() {
 		System.out.println(convidadoSet);
 	}
+	
+	public static void main(String[] args) {
+		ConjuntoConvidados conjuntoConvidados = new ConjuntoConvidados();
+		System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidados dentro do Set de Convidados");
+		
+		conjuntoConvidados.adicionarConvidado("Convidado 1", 01);
+		conjuntoConvidados.adicionarConvidado("Convidado 2", 01);
+		conjuntoConvidados.adicionarConvidado("Convidado 3", 02);
+		conjuntoConvidados.adicionarConvidado("Convidado 4", 03);
+		conjuntoConvidados.adicionarConvidado("Convidado 5", 04);
+		conjuntoConvidados.adicionarConvidado("Convidado 6", 05);
+		conjuntoConvidados.exibirConvidados();
+		System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidados dentro do Set de Convidados");
+		conjuntoConvidados.removerConvidadoPorCodigoConvite(02);
+		conjuntoConvidados.removerConvidadoPorCodigoConvite(05);
+		conjuntoConvidados.removerConvidadoPorCodigoConvite(01);
+		conjuntoConvidados.exibirConvidados();
+		System.out.println("Existem " + conjuntoConvidados.contarConvidados() + " convidados dentro do Set de Convidados"); }
 }
+
+
+
