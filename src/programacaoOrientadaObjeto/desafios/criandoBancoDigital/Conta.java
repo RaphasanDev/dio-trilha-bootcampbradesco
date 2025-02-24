@@ -1,9 +1,9 @@
 package programacaoOrientadaObjeto.desafios.criandoBancoDigital;
 
 public abstract class Conta implements IConta{
-	private int agencia;
-	private int numeroConta;
-	private double saldo;
+	protected int agencia;
+	protected int numeroConta;
+	protected double saldo;
 	
 	
 	public int getAgencia() {
