@@ -1,4 +1,4 @@
-package streamApi.fucntionalInterface.examples;
+package streamApi.functionalInterface.examples;
 
 import java.util.Arrays;
 import java.util.List;
