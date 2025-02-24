@@ -1,19 +1,5 @@
 package programacaoOrientadaObjeto.desafios.criandoBancoDigital;
 
-public class ContaCorrente {
-	public int agencia;
-	public int numeroConta;
-	public double saldo;
+public class ContaCorrente extends Conta {
 	
-	public void sacar() {
-
-	}
-
-	public void depositar() {
-
-	}
-
-	public void transferir() {
-
-	}
 }
