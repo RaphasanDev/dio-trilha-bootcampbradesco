@@ -2,8 +2,9 @@ package programacaoOrientadaObjeto.desafios.criandoBancoDigital;
 
 public class ContaCorrente extends Conta {
 
-	public ContaCorrente(Cliente cliente) {
-		super(cliente);
+	public ContaCorrente(Cliente cliente, Banco banco) {
+		super(cliente, banco);
+		
 		
 	}
 
