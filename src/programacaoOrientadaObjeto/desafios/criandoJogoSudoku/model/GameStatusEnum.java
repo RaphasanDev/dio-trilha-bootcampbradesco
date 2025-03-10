@@ -1,16 +1,19 @@
 package programacaoOrientadaObjeto.desafios.criandoJogoSudoku.model;
 
 public enum GameStatusEnum {
-	NON_STARTED("não iniciado"), INCOMPLETE("incompleto"), COMPLETE("completo");
 
-	private String label;
+    NON_STARTED("não iniciado"),
+    INCOMPLETE("incompleto"),
+    COMPLETE("completo");
 
-	GameStatusEnum(final String label) {
-		this.label = label;
-	}
+    private String label;
 
-	public String getLabel() {
-		return label;
-	}
+    GameStatusEnum(final String label){
+        this.label = label;
+    }
+
+    public String getLabel() {
+        return label;
+    }
 
 }
