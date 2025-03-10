@@ -1,6 +1,8 @@
 package programacaoOrientadaObjeto.desafios.criandoJogoSudoku;
+
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
+import static java.util.stream.Collectors.toMap;
 import static programacaoOrientadaObjeto.desafios.criandoJogoSudoku.util.BoardTemplate.BOARD_TEMPLATE;
 
 import java.util.ArrayList;
@@ -8,7 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Stream;
-import static java.util.stream.Collectors.toMap;
 
 import programacaoOrientadaObjeto.desafios.criandoJogoSudoku.model.Board;
 import programacaoOrientadaObjeto.desafios.criandoJogoSudoku.model.Space;
@@ -170,7 +171,7 @@ public class Main {
             showCurrentGame();
             board = null;
         } else if (board.hasErrors()) {
-            System.out.println("Seu jogo contém erros, verifique seu board e ajuste-o");
+            System.out.println("Seu jogo conté, erros, verifique seu board e ajuste-o");
         } else {
             System.out.println("Você ainda precisa preenhcer algum espaço");
         }
